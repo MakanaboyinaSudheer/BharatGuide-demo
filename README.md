@@ -11,6 +11,10 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Deploy to GitHub Pages
+
+The `main` branch is deployed automatically to [GitHub Pages](https://makanaboyinasudheer.github.io/BharatGuide-demo/) using GitHub Actions. The build exports a static site to `out/`; the repository base path is applied automatically during the Pages build.
+
 ## Demo features
 
 - Browse sample local guides and filter by city or experience type.

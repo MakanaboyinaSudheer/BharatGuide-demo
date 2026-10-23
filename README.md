@@ -1,6 +1,6 @@
-# BharatGuide MVP
+# BharatGuide Prototype
 
-A responsive Next.js demo for discovering locally led experiences in India and sending a sample booking request.
+A responsive two-sided marketplace prototype for discovering locally led experiences across India. Built with Next.js, React, TypeScript and Tailwind CSS, with custom responsive styling.
 
 ## Run locally
 
@@ -17,8 +17,12 @@ The `main` branch is deployed automatically to [GitHub Pages](https://makanaboyi
 
 ## Demo features
 
-- Browse sample local guides and filter by city or experience type.
-- Open a guide's booking form, choose a date and group size, and see a request confirmation.
-- Responsive layouts for desktop and mobile screens.
+- Search and filter sample guides by city, language, theme or free-text query; switch displayed prices between INR, USD, EUR and GBP.
+- Run a multi-step booking flow with add-ons, an itemized price, simulated Razorpay/Stripe outcomes and a generated booking reference.
+- Switch between traveler and guide views to manage requests, availability, profile details and verification document placeholders.
+- Add persistent reviews, track booking status, start and complete a tour, and view a route/location-sharing mockup.
+- Explore the safety modal, simulated emergency activity and tour-code verification flow.
+- Persist bookings, profile details, reviews, role and demo activity in browser local storage.
+- Use the responsive layouts and keyboard-accessible dialogs across desktop and mobile.
 
-The guide profiles and booking confirmation are demo-only. This MVP does not connect to a database, authentication, maps, messaging, payments, or a live booking service. Guide imagery is loaded from Unsplash.
+All marketplace data is sample content and saved only in the current browser. Authentication, payments, police contact, GPS, maps, QR verification and document uploads are simulations; no external service is contacted, no real payment is taken and uploaded document contents are not stored or transmitted. Guide imagery is loaded from Unsplash.
